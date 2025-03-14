@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UptimeX - Surveillance de Sites Web en Temps Réel
 
-## Getting Started
+**UptimeX** est une plateforme de surveillance de sites web qui permet aux utilisateurs de suivre la disponibilité et les performances de leurs sites 24/7. Avec des alertes instantanées, des rapports détaillés et une intégration facile, **UptimeX** aide à assurer la performance optimale des sites en ligne.
 
-First, run the development server:
+## 🚀 Fonctionnalités
+
+### 🌍 Surveillance de Disponibilité (Uptime Monitoring)
+- Vérifie en continu si un site est en ligne.
+- Tests de disponibilité depuis plusieurs localisations globales.
+
+### ⚡ Suivi des Performances (Performance Tracking)
+- Analyse des temps de chargement et des erreurs des sites web.
+
+### 🚨 Alertes Instantanées (Instant Alerts)
+- Notifications par **Email**, **SMS** ou **Slack** en cas de panne ou d’incident.
+
+### 📊 Rapports Détaillés (Detailed Reports)
+- Statistiques d’incidents et analyses de performance.
+- Génération de rapports envoyés par email.
+
+### 🔌 Intégration Facile (Easy Integration)
+- API et Webhooks pour automatiser les actions en fonction des résultats de la surveillance.
+
+## 🏠 Pages Principales
+
+### 🌍 Page d'Accueil (Landing Page)
+- Design minimaliste avec une palette de couleurs bleu et vert.
+- Section Hero avec un titre accrocheur : *"Restez en ligne, restez performant. Surveillez votre site 24/7."*
+- Fond animé représentant la surveillance des serveurs en temps réel.
+
+### 🖥️ Page /dashboard (Tableau de Bord Utilisateur)
+- Vue globale des sites surveillés avec des graphiques de performance.
+- Gestion des alertes et rapports d’incidents.
+- Section pour ajouter un nouveau site à surveiller.
+
+### 📢 Page /dashboard/alerts (Gestion des Alertes)
+- Liste des alertes reçues avec possibilité de marquer comme résolues.
+- Option d’exportation des alertes en format CSV/PDF.
+
+### 📈 Page /dashboard/reports (Rapports et Logs)
+- Graphiques interactifs sur la disponibilité et les performances des sites.
+- Filtres avancés pour trier les rapports par date, site, ou type d’incident.
+
+### 💳 Page /dashboard/pricing (Gestion des Abonnements)
+- Plans disponibles :
+  - **Free** – 1 site, 10 requêtes/min, alertes par email uniquement.
+  - **Pro (5€/mois)** – 5 sites, 30 requêtes/min, alertes SMS + Slack.
+  - **Enterprise** – Sites illimités, API, Webhooks.
+
+### ⚙️ Page /gourou (Tableau de Bord Administrateur)
+- Gestion des utilisateurs, sites surveillés et logs d’incidents.
+- Intégration avec Stripe pour la gestion des paiements.
+
+## 🛠️ Prérequis
+
+Assurez-vous d’avoir les outils suivants installés :
+- Node.js >= 16
+- npm, yarn, pnpm, ou bun (selon votre gestionnaire de paquets préféré)
+
+## 💻 Installation
+
+Clonez ce dépôt et installez les dépendances :
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/uptimex.git
+cd uptimex
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
